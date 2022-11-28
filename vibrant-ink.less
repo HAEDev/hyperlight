@@ -1,0 +1,57 @@
+/* theme based on vibrant-ink.css from hyperlight */
+
+.source-code
+{
+    background: #222;
+    color: #888;
+    white-space: pre;
+    overflow: auto;
+
+    &.none { color: #996; }
+
+    .keyword
+    {
+        color: #f60;
+
+        &.literal { color: #fc0; }
+        &.type { color: #fc0; }
+        &.builtin { color: #fc0; }
+        &.operator { color: #f60; }
+    }
+
+    .preprocessor { color: #996; }
+
+    .comment
+    {
+        color: #93c;
+
+        .doc { color: #399; }
+    }
+
+    .identifier { color: #eee; }
+    .string, .char { color: #6f0; }
+    .escaped { color: #aaa; }
+    .number, .tag { color: #f6e; }
+    .regex { color: #4bc; }
+    .operator { color: #888; }
+    .attribute { color: #f60; }
+
+    .tag, .variable
+    {
+        color: #4bc;
+
+        .identifier { color: #4bc; }
+    }
+
+    .whitespace { background: #333; }
+    .error { border-bottom: 1px solid red; }
+
+    &.xml { color: #ddd;}
+    &.xml .tag { color: #888; }
+    &.xml .attribute { color: #888; }
+    &.xml .preprocessor .keyword { color #996; }
+    &.xml .preprocessor .keyword { color: #996; }
+    &.xml .meta, &.xml .meta .keyword { color: #399; }
+
+    &.cpp .preprocessor .identifier { color: #996; }
+}

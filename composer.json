@@ -1,0 +1,32 @@
+{
+    "name" : "razielanarki/hyperlight",
+    "type" : "library",
+    "description" : "Hyperlight Server-Side syntax highlighter for PHP",
+    "keywords" : ["server-side", "syntax", "highlighter"],
+    "homepage": "https://bitbucket.org/razielanarki/hyperlight",
+    "license": "BSD-3-Clause",
+    "authors" :
+    [
+        {
+            "name"     : "Konrad Rudolph",
+            "email"    : "konrad.rudolph@gmail.com",
+            "role"     : "developer"
+        },
+        {
+            "name"     : "Raziel Anarki",
+            "email"    : "razielanarki@semmi.se",
+            "role"     : "composer package, additional syntaxes"
+        }
+    ],
+    "require" :
+    {
+        "php" : ">=5.3.0"
+    },
+    "autoload" :
+    {
+        "psr-0" :
+        {
+            "Hyperlight" : "lib/"
+        }
+    }
+}
